@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <style>
+    .physics-blue { fill: #234C6A; }
+    .ai-blue { fill: #1B3C53; }
+    .highlight { fill: #456882; }
+    .gray { fill: #E3E3E3; }
+  </style>
+  
+  <!-- Tree structure representing knowledge -->
+  <circle cx="120" cy="60" r="20" class="ai-blue"/>
+  <circle cx="70" cy="110" r="16" class="highlight"/>
+  <circle cx="170" cy="110" r="16" class="highlight"/>
+  <circle cx="40" cy="170" r="12" class="physics-blue"/>
+  <circle cx="100" cy="170" r="12" class="physics-blue"/>
+  <circle cx="140" cy="170" r="12" class="physics-blue"/>
+  <circle cx="200" cy="170" r="12" class="physics-blue"/>
+  
+  <!-- Branches connecting concepts -->
+  <line x1="120" y1="60" x2="70" y2="110" stroke="#E3E3E3" stroke-width="3"/>
+  <line x1="120" y1="60" x2="170" y2="110" stroke="#E3E3E3" stroke-width="3"/>
+  
+  <line x1="70" y1="110" x2="40" y2="170" stroke="#E3E3E3" stroke-width="2"/>
+  <line x1="70" y1="110" x2="100" y2="170" stroke="#E3E3E3" stroke-width="2"/>
+  
+  <line x1="170" y1="110" x2="140" y2="170" stroke="#E3E3E3" stroke-width="2"/>
+  <line x1="170" y1="110" x2="200" y2="170" stroke="#E3E3E3" stroke-width="2"/>
+  
+  <!-- Physics symbols -->
+  <text x="110" y="65" font-family="Arial" font-size="12" fill="#E3E3E3">ℏ</text>
+  <text x="65" y="115" font-family="Arial" font-size="12" fill="#E3E3E3">∇</text>
+  <text x="165" y="115" font-family="Arial" font-size="12" fill="#E3E3E3">∫</text>
+  
+  <!-- AI symbols -->
+  <circle cx="50" cy="180" r="8" class="ai-blue" opacity="0.6"/>
+  <circle cx="90" cy="180" r="8" class="ai-blue" opacity="0.6"/>
+  <circle cx="150" cy="180" r="8" class="ai-blue" opacity="0.6"/>
+  <circle cx="190" cy="180" r="8" class="ai-blue" opacity="0.6"/>
+</svg>

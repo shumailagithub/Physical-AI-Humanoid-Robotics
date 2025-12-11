@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <style>
+    .physics-blue { fill: #234C6A; }
+    .ai-blue { fill: #1B3C53; }
+    .highlight { fill: #456882; }
+    .gray { fill: #E3E3E3; }
+  </style>
+  
+  <!-- Atom structure background -->
+  <circle cx="120" cy="120" r="100" class="physics-blue" opacity="0.1"/>
+  <circle cx="120" cy="120" r="70" class="physics-blue" opacity="0.2"/>
+  
+  <!-- Central nucleus -->
+  <circle cx="120" cy="120" r="30" class="ai-blue"/>
+  
+  <!-- Orbiting particles -->
+  <circle cx="120" cy="50" r="10" class="highlight" transform="rotate(0 120 120)"/>
+  <circle cx="120" cy="50" r="10" class="highlight" transform="rotate(72 120 120)"/>
+  <circle cx="120" cy="50" r="10" class="highlight" transform="rotate(144 120 120)"/>
+  <circle cx="120" cy="50" r="10" class="highlight" transform="rotate(216 120 120)"/>
+  <circle cx="120" cy="50" r="10" class="highlight" transform="rotate(288 120 120)"/>
+  
+  <!-- Neural network overlay -->
+  <circle cx="180" cy="80" r="8" class="ai-blue"/>
+  <circle cx="160" cy="160" r="8" class="ai-blue"/>
+  <circle cx="80" cy="180" r="8" class="ai-blue"/>
+  <circle cx="60" cy="100" r="8" class="ai-blue"/>
+  <circle cx="120" cy="60" r="8" class="ai-blue"/>
+  
+  <!-- Connections -->
+  <line x1="180" y1="80" x2="160" y2="160" stroke="#E3E3E3" stroke-width="2" opacity="0.6"/>
+  <line x1="160" y1="160" x2="80" y2="180" stroke="#E3E3E3" stroke-width="2" opacity="0.6"/>
+  <line x1="80" y1="180" x2="60" y2="100" stroke="#E3E3E3" stroke-width="2" opacity="0.6"/>
+  <line x1="60" y1="100" x2="120" y2="60" stroke="#E3E3E3" stroke-width="2" opacity="0.6"/>
+  <line x1="120" y1="60" x2="180" y2="80" stroke="#E3E3E3" stroke-width="2" opacity="0.6"/>
+  <line x1="120" y1="60" x2="160" y2="160" stroke="#E3E3E3" stroke-width="2" opacity="0.6"/>
+</svg>
