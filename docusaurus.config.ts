@@ -89,7 +89,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/shumailagithub',
           label: 'GitHub',
           position: 'right',
         },
@@ -104,6 +104,22 @@ const config: Config = {
             {
               label: 'Tutorial',
               to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'About',
+          items: [
+            {
+              html: `
+                <div style="display: flex; align-items: center; gap: 10px; padding: 5px 0;">
+                  <img src="/img/profile-pic.png" alt="Shumaila Gulfam" style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover; border: 1px solid #234C6A;" />
+                  <div>
+                    <div style="margin: 0; font-weight: 600;">Created by Shumaila Gulfam</div>
+                    <div style="margin: 0;"><a href="https://github.com/shumailagithub" target="_blank" style="color: #234C6A; text-decoration: none; font-size: 0.9em;">GitHub Profile</a></div>
+                  </div>
+                </div>
+              `,
             },
           ],
         },
